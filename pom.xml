@@ -17,6 +17,7 @@
 		<!-- Java Version source/target -->
 		<jdk.source.version>1.11</jdk.source.version>
 		<jdk.target.version>1.11</jdk.target.version>
+		<java.version>1.11</java.version>
 		<springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 		<junit-platform.version>1.7.0</junit-platform.version>

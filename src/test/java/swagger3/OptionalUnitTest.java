@@ -21,5 +21,6 @@ public class OptionalUnitTest {
 
         opt = Optional.ofNullable(null);
         assertTrue(opt.isEmpty());
+        assertFalse(opt.isPresent());
     }
 }
