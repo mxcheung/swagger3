@@ -12,6 +12,13 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	<properties>
+
+		<!-- Java Version source/target -->
+		<jdk.source.version>1.11</jdk.source.version>
+		<jdk.target.version>1.11</jdk.target.version>
+		<springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -35,7 +42,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>1.4.8</version>
+			<version>${springdoc-openapi-ui.version}</version>
 		</dependency>
 
 	</dependencies>
