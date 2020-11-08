@@ -40,4 +40,11 @@ public class NewStringAPIUnitTest {
 
         is(lineCount).equals(3L);
     }
+    
+    @Test
+    public void generateOutputCsvzz() {
+        var  x = 1.0/2.0;
+    }
+
+
 }
