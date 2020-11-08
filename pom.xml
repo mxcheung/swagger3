@@ -18,6 +18,8 @@
 		<jdk.source.version>1.11</jdk.source.version>
 		<jdk.target.version>1.11</jdk.target.version>
 		<springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
+		<junit-jupiter.version>5.7.0</junit-jupiter.version>
+		<junit-platform.version>1.7.0</junit-platform.version>
 	</properties>
 
 	<dependencies>
@@ -44,6 +46,26 @@
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>${springdoc-openapi-ui.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>${junit-jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<version>${junit-platform.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+
 
 	</dependencies>
 </project>
