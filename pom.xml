@@ -15,11 +15,11 @@
 	<properties>
 
 		<!-- Java Version source/target -->
-		<jdk.source.version>1.11</jdk.source.version>
-		<jdk.target.version>1.11</jdk.target.version>
-		<maven.compiler.source>1.11</maven.compiler.source>
-		<maven.compiler.target>1.11</maven.compiler.target>
-		<java.version>1.11</java.version>
+		<jdk.source.version>11</jdk.source.version>
+		<jdk.target.version>11</jdk.target.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<java.version>11</java.version>
 		<springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 		<junit-platform.version>1.7.0</junit-platform.version>
