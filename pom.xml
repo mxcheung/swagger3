@@ -23,6 +23,7 @@
 		<springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 		<junit-platform.version>1.7.0</junit-platform.version>
+		<lombok.version>1.18.12</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -31,6 +32,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
